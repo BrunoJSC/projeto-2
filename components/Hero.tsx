@@ -28,7 +28,7 @@ export function Hero() {
             Saiba mais
           </Link>
         </div>
-        <p className="text-white text-center z-10 absolute bottom-0 left-0 right-0 text-[#9E9E9E]">
+        <p className=" text-center z-10 absolute bottom-0 left-0 right-0 text-[#9E9E9E]">
           Product Design / UX Research / UI Design / Design Thinking
         </p>
       </div>
