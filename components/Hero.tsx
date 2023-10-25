@@ -9,8 +9,8 @@ export function Hero() {
           <Image
             src="/person2.png"
             alt=""
-            width={542}
-            height={518}
+            width={920}
+            height={1080}
             className="object-contain w-[100%] h-auto md:w-[942px] md:h-[918px] -z-[1px]"
           />
         </div>
