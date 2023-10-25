@@ -7,10 +7,10 @@ export function Hero() {
       <div className="max-w-[1440px] mx-auto">
         <div className="-z-[1px]">
           <Image
-            src="/person.png"
+            src="/person2.png"
             alt=""
-            width={942}
-            height={918}
+            width={542}
+            height={518}
             className="object-contain w-[100%] h-auto md:w-[942px] md:h-[918px] -z-[1px]"
           />
         </div>
@@ -32,12 +32,16 @@ export function Hero() {
 
           <Link
             href="/sobre"
-            className="text-white border-4 border-[#00FFBD] py-[16px] px-[56px] uppercase font-bold inline-block mt-5"
+            className="text-white border-4 border-[#00FFBD] py-[16px] px-[56px] uppercase font-bold inline-block mt-5 hover:bg-[#00FFBD] hover:text-[#000]"
           >
             Saiba mais
           </Link>
         </div>
       </div>
+
+      <p className="text-[#9E9E9E] text-lg md:text-[16px] font-medium leading-relaxed w-full text-center">
+        Product Design / UX Research / UI Design / Design Thinking
+      </p>
     </section>
   );
 }

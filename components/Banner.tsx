@@ -2,21 +2,24 @@ import Image from "next/image";
 
 export function Banner() {
   return (
-    <section className="bg-neutral-800 w-full h-[247px] flex items-center justify-center">
-      <div className="flex flex-col md:flex-row justify-between  h-[247]  w-[640px] ">
+    <section className="bg-neutral-800 w-full p-4 md:h-[279px]  flex flex-wrap items-center justify-evenly">
+      <div className="w-[225px] h-[223px]">
         <Image
           src="/unicorn.svg"
-          alt="Banner"
-          width={200}
-          height={247}
-          className=" object-cover h-24 w-24	"
+          alt=""
+          width={542}
+          height={518}
+          className="w-full h-full"
         />
+      </div>
+
+      <div className="w-[225px] h-[223px]">
         <Image
           src="/ibm.svg"
-          alt="Banner"
-          width={200}
-          height={247}
-          className=" object-cover h-24 w-24	"
+          alt=""
+          width={542}
+          height={518}
+          className="w-full h-full"
         />
       </div>
     </section>

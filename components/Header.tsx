@@ -37,7 +37,7 @@ export function Header() {
 
       <DropdownMenu open={isOpen} onOpenChange={setIsOpen}>
         <DropdownMenuTrigger>
-          <Menu className="h-6 w-6 text-[#00FFBD]" />
+          <Menu className="h-[32px] w-[32px] text-[#00FFBD]" />
         </DropdownMenuTrigger>
         <DropdownMenuContent className="w-64 bg-[#000] text-white mt-6 border border-[#00FFBD] rounded-[2px] z-50">
           {links.map((link) => (
