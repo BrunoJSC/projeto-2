@@ -1,20 +1,29 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export function Hero() {
   return (
-    <section className="w-full flex flex-col justify-center min-h-screen relative ">
-      <div className="w-full flex  justify-center  px-4">
-        <div className="w-full hidden md:block h-[918px] md:w-[946px] md:bg-[url('/person.png')] bg-no-repeat -z-[1px]" />
+    <section className="md:relative w-full min-h-screen">
+      <div className="max-w-[1440px] mx-auto">
+        <div className="-z-[1px]">
+          <Image
+            src="/person.png"
+            alt=""
+            width={942}
+            height={918}
+            className="object-contain w-[100%] h-auto md:w-[942px] md:h-[918px] -z-[1px]"
+          />
+        </div>
 
-        <div className="ml-0 md:-ml-56 md:max-w-[628px] h-[380px] md:mt-44">
-          <h1 className="text-4xl md:text-6xl font-bold text-white">
+        <div className="md:absolute md:top-[35%] md:left-[50%] md:translate-x-[-2%] md:translate-y-[-50%] md:w-[628px]  w-full md:text-left text-center">
+          <h1 className="text-white md:text-[64px] text-5xl  font-bold w-full ">
             Matheus
-            <p className="text-[#00FFBD] ">Damasceno</p>
+            <br />
+            <p className="text-[#00FFBD]">Damasceno</p>
+            <div className="border-4 border-[#00FFBD] w-[140px] inline-block" />
           </h1>
 
-          <div className="w-[120px] border-4 border-[#00FFBD] my-4" />
-
-          <p className="text-white md:w-full text-[20px] font-medium">
+          <p className="text-white text-lg md:text-[20px] font-medium leading-relaxed w-full">
             Minha busca constante por ajudar as pessoas me permite desvendar as
             sutilezas das necessidades humanas e traduzi-las em soluções de
             design que complementam e apoiam os objetivos de negócios de forma
@@ -23,14 +32,11 @@ export function Hero() {
 
           <Link
             href="/sobre"
-            className="text-white border-4 border-[#00FFBD] py-[16px] px-[56px] inline-block uppercase font-bold mt-5"
+            className="text-white border-4 border-[#00FFBD] py-[16px] px-[56px] uppercase font-bold inline-block mt-5"
           >
             Saiba mais
           </Link>
         </div>
-        <p className=" text-center z-10 absolute bottom-0 left-0 right-0 text-[#9E9E9E]">
-          Product Design / UX Research / UI Design / Design Thinking
-        </p>
       </div>
     </section>
   );
