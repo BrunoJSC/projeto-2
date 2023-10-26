@@ -10,34 +10,33 @@ const paragraphs = [
 export function About() {
   return (
     <section className="w-full p-4">
-      <hr className="w-full border-gray-600 my-4" />
-      <div className="max-w-[1128px] mx-auto flex items-center justify-between">
-        <div className="w-[660px] h-[299px] flex flex-col items-center bg-green-500">
-          <h2 className="text-[48px] font-semibold leading-relaxed text-white">
+      <hr className="border-gray-600 my-4 mx-auto max-w-[90%]" />
+      <div className="max-w-[90%] mx-auto flex flex-col md:flex-row items-center justify-between">
+        <div className="w-full md:w-[648px] h-auto flex flex-col items-center md:items-start md:justify-center p-4 md:p-0">
+          <h2 className="text-4xl md:text-5xl font-semibold text-white text-center md:text-left mb-4 md:mb-8">
             “Se um usuário tem um problema, então nós temos um problema” - Steve
             Jobs
           </h2>
-
           <Link
             href="/about"
-            className="uppercase text-white font-bold border-4 border-[#00FFBD] px-[90px] py-[16px] inline-block"
+            className="uppercase text-white font-bold border-4 border-[#00FFBD] px-8 md:px-[56px] py-4 md:py-[16px] inline-block mx-auto"
           >
             Curriculo
           </Link>
         </div>
 
-        <div className="w-[430px]  ">
+        <div className="w-full md:w-[40%] mt-8 md:mt-0">
           {paragraphs.map((paragraph, index) => (
             <p
               key={index}
-              className="text-white text-[20px] font-medium my-2 leading-relaxed"
+              className="text-white text-lg md:text-xl font-medium my-4 md:my-6 leading-relaxed"
             >
               {paragraph}
             </p>
           ))}
         </div>
       </div>
-      <hr className="w-full border-gray-600 my-4" />
+      <hr className="border-gray-600 my-4 mx-auto max-w-[90%]" />
     </section>
   );
 }
