@@ -1,5 +1,6 @@
 import { About } from "@/components/About";
 import { Banner } from "@/components/Banner";
+import { Certifications } from "@/components/Certifications";
 import { Hero } from "@/components/Hero";
 import { Projects } from "@/components/Projects";
 
@@ -10,6 +11,7 @@ export default function Home() {
       <Banner />
       <About />
       <Projects />
+      <Certifications />
     </main>
   );
 }
