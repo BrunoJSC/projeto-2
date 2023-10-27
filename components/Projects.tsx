@@ -28,7 +28,7 @@ export function Projects() {
         Meus Projectos
       </h1>
 
-      <div className="max-w-5xl mx-auto border border-[#00FFBD]">
+      <div className="max-w-[1112px] mx-auto border border-[#00FFBD]">
         <div
           className="w-full md:h-[447px] bg-cover bg-no-repeat flex flex-col items-center justify-center relative"
           style={{ backgroundImage: "url('/florest.png')" }}
@@ -39,7 +39,7 @@ export function Projects() {
           <h2 className="text-2xl md:text-5xl text-center font-extrabold text-white">
             Cuidados com a saúde (All-in-One)
           </h2>
-          <p className="text-lg md:text-xl lg:text-2xl font-medium text-center w-full md:w-9/12 lg:w-7/12 text-white">
+          <p className="text-lg md:text-[20px] lg:text-[20px] font-medium text-center w-full md:w-[889.594px] lg:w-[80%] text-white mt-5">
             Identificar as principais dificuldades que as pessoas têm para se
             manterem saudáveis no dia a dia e projetar uma solução unificada
             para ajudá-las (preparador físico, médico, nutricionista, etc).
@@ -49,7 +49,7 @@ export function Projects() {
             <span>Complexo</span>
           </div>
 
-          <div className="md:absolute md:-translate-x-1/2 bottom-5 mb-3">
+          <div className="md:absolute md:-translate-x-1/2 bottom-5">
             <Image src="/arrow.svg" alt="" width={50} height={50} />
           </div>
         </div>
@@ -64,7 +64,7 @@ export function Projects() {
           <h2 className="text-2xl md:text-5xl text-center font-extrabold text-white">
             Design System
           </h2>
-          <p className="text-lg md:text-xl lg:text-2xl font-medium text-center w-full md:w-9/12 lg:w-7/12 text-white">
+          <p className="text-lg md:text-[20px] lg:text-[20px] font-medium text-center w-full md:w-[889.594px] lg:w-[80%] text-white mt-5">
             Nesse Design System fizemos a espinha dorsal que garante
             consistência visual, eficiência no desenvolvimento e satisfação do
             usuário. Com uma abordagem coesa, elevamos a qualidade desse projeto
@@ -90,7 +90,7 @@ export function Projects() {
           <h2 className="text-2xl md:text-5xl text-center font-extrabold text-white">
             Mini-Cases de UX
           </h2>
-          <p className="text-lg md:text-xl lg:text-2xl font-medium text-center w-full md:w-9/12 lg:w-7/12 text-white">
+          <p className="text-lg md:text-[20px] lg:text-[20px] font-medium text-center w-full md:w-[889.594px] lg:w-[80%] text-white mt-5">
             Durante minha jornada no curso UX Unicórnio, mergulhei profundamente
             nas disciplinas essenciais de Experiência do Usuário (UX). Através
             de mini cases práticos, adquiri conhecimentos valiosos e habilidades
