@@ -10,7 +10,7 @@ const paragraphs = [
 export function About() {
   return (
     <section className="w-full p-4">
-      <hr className="border-gray-600 my-4 mx-auto max-w-[90%]" />
+      <hr className="border-gray-600 mx-auto max-w-[90%] my-20" />
       <div className="max-w-[90%] mx-auto flex flex-col md:flex-row items-center justify-between">
         <div className="w-full md:w-[648px] h-auto flex flex-col items-center md:items-start md:justify-center p-4 md:p-0">
           <h2 className="text-4xl md:text-5xl font-semibold text-white text-center md:text-left mb-4 md:mb-8">
@@ -36,7 +36,7 @@ export function About() {
           ))}
         </div>
       </div>
-      <hr className="border-gray-600 my-4 mx-auto max-w-[90%]" />
+      <hr className="border-gray-600 mx-auto max-w-[90%] my-20" />
     </section>
   );
 }
